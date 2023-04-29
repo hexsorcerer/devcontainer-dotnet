@@ -4,5 +4,6 @@
   "runArgs": [
     "--name",
     "devcontainer-dotnet"
-  ]
+  ],
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
 }
