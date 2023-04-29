@@ -1,4 +1,8 @@
 {
-  "name": "hexdev",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:7.0"
+  "name": "devcontainer-dotnet",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
+  "runArgs": [
+    "--name",
+    "devcontainer-dotnet"
+  ]
 }
