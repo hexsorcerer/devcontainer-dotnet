@@ -3,7 +3,9 @@
   "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
   "runArgs": [
     "--name",
-    "devcontainer-dotnet"
+    "devcontainer-dotnet",
+    "--env-file",
+    ".devcontainer/devcontainer.env"
   ],
-  "postCreateCommand": "./.devcontainer/postCreateCommand.sh"
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh ${GIT_EMAIL} ${GIT_NAME}"
 }
