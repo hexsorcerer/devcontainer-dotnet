@@ -7,5 +7,12 @@
     "--env-file",
     ".devcontainer/devcontainer.env"
   ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "fernandoescolar.vscode-solution-explorer"
+      ]
+    }
+  },
   "postCreateCommand": "./.devcontainer/postCreateCommand.sh ${GIT_EMAIL} ${GIT_NAME}"
 }

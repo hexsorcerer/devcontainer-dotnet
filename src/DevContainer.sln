@@ -1,0 +1,33 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04E2FA29-EF03-42BE-8630-2E036731C5AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{615C5F31-8E87-430E-8A63-80A00B91C07B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevContainer", "DevContainer", "{277D8EC9-275E-427B-8DA5-F23926DA1924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevContainer.API", "Services\DevContainer\DevContainer.API\DevContainer.API.csproj", "{3476F167-0A4C-453B-AC1A-FD50248120F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3476F167-0A4C-453B-AC1A-FD50248120F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3476F167-0A4C-453B-AC1A-FD50248120F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3476F167-0A4C-453B-AC1A-FD50248120F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3476F167-0A4C-453B-AC1A-FD50248120F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{277D8EC9-275E-427B-8DA5-F23926DA1924} = {615C5F31-8E87-430E-8A63-80A00B91C07B}
+		{615C5F31-8E87-430E-8A63-80A00B91C07B} = {04E2FA29-EF03-42BE-8630-2E036731C5AC}
+		{3476F167-0A4C-453B-AC1A-FD50248120F8} = {277D8EC9-275E-427B-8DA5-F23926DA1924}
+	EndGlobalSection
+EndGlobal
